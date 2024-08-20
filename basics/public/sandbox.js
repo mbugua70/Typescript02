@@ -21,3 +21,11 @@ const addThree = (a, b, c = 30) => {
     console.log(a + b);
 };
 addThree(10, 15);
+// return type
+// this will explicitly return the number
+// we do this after the parenthesis
+const minus = (a, b) => {
+    return a - b;
+};
+let result = minus(100, 30);
+console.log(result);

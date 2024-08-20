@@ -34,3 +34,15 @@ const addThree = (a: number, b: number, c: number | string = 30) => {
 }
 
 addThree(10, 15)
+
+// return type
+
+// this will explicitly return the number
+// we do this after the parenthesis
+const minus = (a: number, b: number): number => {
+    return a - b;
+}
+
+let result = minus(100, 30);
+
+console.log(result);
